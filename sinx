@@ -2,10 +2,11 @@
 Enda O'Connell
 17768231
 
-This code works for small values of x anything less than 35 but bigger values creat very large numbers,
-This could be due to what neill said in his lectures about small error over time but i don't know how to fix it.
-Additionally if you conver the variable final to degrees within the function sin_x it will give you the correct answer
-up to much larger numbers.
+Objective: Recreate the sin function in c and attempt to solve the error over time problem for double precision numbers.
+
+This code works for values between 0 and 35 radians however past that the rounding error becomes a problem and gives incorrect 
+values.
+
 */
 
 #include <stdio.h>
